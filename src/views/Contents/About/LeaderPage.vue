@@ -68,7 +68,7 @@ export default {
             },
             {
                 title: "LEADER OF E.E. & PROGRAM",
-                name: "Liang-Xiang ZHANG", 
+                name: "Jian-Che SU", 
                 email: "h710120@nehstc.edu.tw",
             },
             {
