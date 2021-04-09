@@ -68,7 +68,7 @@ export default {
             },
             {
                 title: "LEADER OF E.E. & PROGRAM",
-                name: "Jian-Che SU", 
+                name: "Jian-Zhe SU", 
                 email: "h710120@nehstc.edu.tw",
             },
             {
