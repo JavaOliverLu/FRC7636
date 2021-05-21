@@ -43,7 +43,7 @@
                     <v-col
                      cols="5"
                      class="d-flex align-center justify-center pa-12 "
-                     style="background-color: #004eb3; height:100%"
+                     style="background-color: #004eb3; height:100%;"
                     >
                         <div class="text-center" style="font-size:5vmin;">
                             NEHS @ CTSP<br>
@@ -59,7 +59,7 @@
                         <v-row no-gutters style="height:100%">
                             <v-col
                                 cols="6"
-                                style="font-size:4vmin;"
+                                style="font-size:4vmin; height:50%;"
                                 class="align-center justify-center d-flex"
                                 v-for="(block, index) in blocks"
                                 :key="index"
@@ -138,7 +138,7 @@ export default {
     data: ()=> ({
         blocks:[
             {
-                content1: "60+",
+                content1: "30+",
                 content2: "Team Members",
                 color: "blockColor1",
             },
@@ -148,12 +148,12 @@ export default {
                 color: "blockColor2",
             },
             {
-                content1: "2",
+                content1: "3",
                 content2: "Years Participants",
                 color: "blockColor2",
             },
             {
-                content1: "3",
+                content1: "4",
                 content2: "Regional Competitions",
                 color: "blockColor1",
             },
@@ -166,10 +166,10 @@ export default {
                 path: "/Team 7636",
             },
             {
-                title: "FRC 2019",
+                title: "FRC 2020",
                 content: "We’ve been participating in the Southern Cross Regional Competition located in NSW of Australia in our rookie year, 2019. We’ve gained a lot through the pass season. Our robot, Charlie’s Comet, had been upgraded and improved through the CTSP Pre-competition and the CTSP off season competition.",
                 imgPath: require("@/assets/Elements/Home/IMG_8742.jpg"),
-                path: "/2019DeepSpace",
+                path: "/2020InfiniteRecharge",
             },
             {
                 title: "Outreach",
@@ -180,24 +180,24 @@ export default {
         ],
         bottomItems: [
             {
-                photo: require("@/assets/Elements/Everywhere-2019 Deep Space.png"),
-                text: "FRC2019:Deep Space",
-                path: "/2019DeepSpace",
+                photo: require("@/assets/Elements/Everywhere-2020 Infinite Recharge.png"),
+                text: "FRC2021:Infinite Recharge",
+                path: "/2021InfiniteRecharge",
             },
             {
-                photo: require("@/assets/Elements/Home/Charlee's Comets.jpg"),
-                text: "2019 Charlle's Comet",
+                photo: require("@/assets/2020-2021/elements/robot_squ.jpg"),
+                text: "2021 Syzygy",
                 path: "",
             },
             {
-                photo: require("@/assets/Logo7636.jpg"),
-                text: "About FRC #7636",
-                path: "/Team 7636",
+                photo: require("@/assets/2020-2021/elements/outreach_squ.jpg"),
+                text: "Outreach",
+                path: "/Outreach",
             },
             {
-                photo: "",
-                text: "Coming up ~~~",
-                path: "",
+                photo: require("@/assets/2020-2021/elements/first_squ.jpg"),
+                text: "FIRST",
+                path: "/FIRST",
             }
         ],        
     }),

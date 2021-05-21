@@ -70,6 +70,10 @@ export default {
                 logo: require("@/assets/Elements/Sponsor/特典.png"),
                 path: "https://goo.gl/maps/M5F2P4qvvb7414Ye9",
             },
+            {
+                logo: require("@/assets/Elements/Sponsor/haoruo.png"),
+                path: "http://www.nehs.tc.edu.tw/index.php",
+            },
         ]
     }),
 }

@@ -9,7 +9,11 @@
           :key="index"
         >
           <a :href="sponsor.path">
-            <img :src="sponsor.logo" class="sponsorsLogo" />
+            <img 
+              :src="sponsor.logo"
+              class="sponsorsLogo"
+              style="height: 15%; width: 15%"
+            />
           </a>
         </v-col>
       </v-row>
@@ -27,7 +31,7 @@
         :key="`footer-${index}`"
       >
         <div class="title">{{ item.title }}</div>
-        <hr />
+        <hr>
         <div
           v-for="(link, index) in item.links"
           class="title"
@@ -68,10 +72,6 @@ export default {
         logo: require("@/assets/Elements/Sponsor/NEHSCTSP.png"),
         path: "http://www.nehs.tc.edu.tw/index.php",
       },
-      {
-        logo: require("@/assets/Elements/Sponsor/NEXCOBOT.png"),
-        path: "http://www.nexcobot.com/",
-      },
     ],
     icons: [
       {
@@ -85,6 +85,10 @@ export default {
       {
         title: "mdi-instagram",
         path: "https://www.instagram.com/frc7636_robomania/",
+      },
+      {
+        title: "mdi-twitch",
+        path: "https://www.twitch.tv/frc7636robomania"
       },
       {
         title: "mdi-email",

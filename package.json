@@ -11,6 +11,7 @@
     "portfinder": "^1.0.28",
     "prerender": "^5.8.2",
     "scss": "^0.2.4",
+    "timeline-vuejs": "^1.1.7",
     "vue": "^2.6.12",
     "vue-carousel-3d": "^0.2.0",
     "vue-cli": "^2.9.6",

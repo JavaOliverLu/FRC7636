@@ -5,14 +5,15 @@ import Home from '../views/Contents/HomePage.vue'
 
 import FIRST from '../views/Contents/About/FIRSTPage.vue'
 import Team from '../views/Contents/About/Team7636.vue'
-import Outreach from '../views/Contents/About/Outreach.vue'
 import Leader from '../views/Contents/About/LeaderPage.vue'
 import Mentor from '../views/Contents/About/Mentor.vue'
 
 import News from '../views/Contents/Event/News.vue'
 import Past from '../views/Contents/Event/PastSeason.vue'
+import Outreach from '../views/Contents/Event/Outreach.vue'
 import DeepSpace from '../views/Contents/Event/Past season/2019DeepSpace.vue'
-import InfiniteRecharge from '../views/Contents/Event/Past season/2020InfiniteRecharge.vue'
+import InfiniteRecharge2020 from '../views/Contents/Event/Past season/2020InfiniteRecharge.vue'
+import InfiniteRecharge2021 from '../views/Contents/Event/Past season/2021InfiniteRecharge.vue'
 
 import Resource from '../views/Contents/Resource.vue'
 
@@ -46,10 +47,6 @@ const routes = [
     component: Contact
   },
   {
-    path: '/Outreach',
-    component: Outreach
-  },
-  {
     path: '/Leader',
     component:Leader
   },
@@ -62,6 +59,10 @@ const routes = [
     component: News
   },
   {
+    path: '/Outreach',
+    component: Outreach
+  },
+  {
     path: '/past-seasons',
     component: Past
   },
@@ -71,7 +72,11 @@ const routes = [
   },
   {
     path: '/2020InfiniteRecharge',
-    component: InfiniteRecharge
+    component: InfiniteRecharge2020
+  },
+  {
+    path: '/2021InfiniteRecharge',
+    component: InfiniteRecharge2021
   },
   {
     path: '/News',
